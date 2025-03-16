@@ -1,4 +1,5 @@
-import streamlit as st
+from ast import main
+import streamlit as st # type: ignore
 from src.extraction import load_data
 
 st.set_page_config(layout = 'wide')
@@ -7,3 +8,4 @@ def mais():
     st.dataframe(df_raw)
 if __name__ == '__main__':
     main()
+    
