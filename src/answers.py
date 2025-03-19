@@ -18,6 +18,7 @@ def rd1_question_9(df):
         text="count",
     )
 
+
     fig.update_traces(textposition="outside")
 
     st.plotly_chart(fig, use_container_width=True)
